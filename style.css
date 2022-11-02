@@ -1,0 +1,75 @@
+/* TODO: design your profile with CSS */
+body {
+  background-color: #F7F9FC;
+  text-align: center;
+}
+
+div {
+  background: white;
+  padding: 30px;
+  border-radius: 4px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  width: 400px;
+  margin: 10px auto;
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  color: #575F7D;
+  font-size: 32px;
+  font-weight: 900;
+}
+
+h2 {
+  font-family: 'Roboto', sans-serif;
+  color: #7ECE90;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+p {
+  color: #575F7D;
+}
+
+#margin-paragraph {
+  margin-bottom: 40px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+i {
+  color: rgb(230, 230, 230);
+  font-size: 50px;
+}
+
+img {
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+}
+
+.btn-blue {
+  text-decoration: none;
+  background-color:  #6B72E1;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  padding: 15px 20px;
+  font-weight: 700;
+  border-radius: 5px;
+}
+
+.social-links li {
+  display: inline;
+  margin: 10px;
+}
+
+.btn-blue:hover {
+  background-color:rgb(33, 33, 33);
+}
+
+.social-links li a i:hover {
+  color: rgb(33, 33, 33);
+}
